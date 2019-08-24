@@ -40,3 +40,7 @@ h3 {
     text-align: left;
     color: white;
 }
+
+#done {
+    width: 50%;
+}

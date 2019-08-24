@@ -24,6 +24,13 @@
                         <button id="show" onclick="startGame()">
                             Start Button
                         </button>
+                        <!-- <div class="row">
+                            <div class="col-lg-12">
+                                <button id="done" onclick="endGame()">
+                                Done
+                                </button>
+                            </div>
+                        </div> -->
                     </div>
                     
                 </div>
@@ -48,34 +55,60 @@
                         <div class="row">
                             <div class="col-lg-12">
                             <h3 id="QuestionOne">What vehicle does the "2JZ" engine belong to?</h3>
-                                    <h3 ><label class="radio-inline"><input type="radio" name="optradio"            checked>Option 1</label>
-                                        <label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
-                                        <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
-                                        <label class="radio-inline"><input type="radio" name="optradio">Option 4</label>
+                                    <h3>
+                                        <form>
+                                            <label class="radio-inline"><input class="radio" type="radio" name="optradio" value="mustang">Mustang</label>
+                                            <label class="radio-inline"><input class="radio" type="radio" name="optradio" value="supra">Supra</label>
+                                            <label class="radio-inline"><input class="radio" type="radio" name="optradio" value="corvette">Corvette</label>
+                                            <label class="radio-inline"><input class="radio" type="radio" name="optradio" value="alpha Romeo">Alpha Romeo</label>
+                                        </form>
                                     </h3>
                             </div>
                         </div>
+                        
                         <div class="row">
                                 <div class="col-lg-12">
-                                    <h3 id="QuestionTwo">What vehicle does the "2JZ" engine belong to?</h3>
-                                        <h3 id="QuestionTwo"><label class="radio-inline"><input type="radio" name="optradio"            checked>Option 1</label>
-                                            <label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
-                                            <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
-                                            <label class="radio-inline"><input type="radio" name="optradio">Option 4</label>
+                                    <h3 id="QuestionTwo">How much Halogen fluid to fill your headlights?</h3>
+                                        <h3>
+                                            <form>
+                                            <label class="radio-inline"><input class="radio" type="radio" name="optradio" value="3qt">3qts</label>
+                                            <label class="radio-inline"><input class="radio" type="radio" name="optradio" value="1 Gallon">1 Gallon</label>
+                                            <label class="radio-inline"><input class="radio" type="radio" name="optradio" value="1qt">1qt</label>
+                                            <label class="radio-inline"><input class="radio" type="radio" name="optradio" value="None">None</label>
+                                            </form>
                                         </h3>
                                 </div>
                             </div>
+                            
                             <div class="row">
                                     <div class="col-lg-12">
-                                        <h3 id="QuestionThree">What vehicle does the "2JZ" engine belong to?</h3>
-                                            <h3><label class="radio-inline"><input type="radio" name="optradio"            checked>Option 1</label>
-                                                <label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
-                                                <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
-                                                <label class="radio-inline"><input type="radio" name="optradio">Option 4</label>
+                                        <h3 >What is the best soap to wash your car with?</h3>
+                                            <h3 id="QuestionThree">
+                                                <label class="radio-inline"><input class="radio" type="radio"  name="optradio" value="Pamolive">Pamolive</label>
+                                                <label class="radio-inline"><input class="radio" type="radio"   name="optradio" value="Clorox">Clorox</label>
+                                                <label class="radio-inline"><input  class="radio" type="radio"  name="optradio" value="Handsoap">Handsoap</label>
+                                                <label class="radio-inline"><input class="radio" type="radio"  name="optradio" value="Meguires">Meguires</label>
                                             </h3>
+                                    </div>
+                            </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button id="done" onclick="endGame()">
+                                        Done
+                                        </button>
                                     </div>
                                 </div>
         </div>
+    </div>
+
+    <div id="SecondPage" >
+            <div class="containerMain">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Totally Trivial Trivia!</h1>
+                    </div>
+                </div>    
+            </div>
     </div>
 <script src="./assets/javascript/app.js"></script>
 </body>
